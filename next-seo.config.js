@@ -1,20 +1,20 @@
-const title = 'Lee Robinson – Developer, writer, creator.';
+const title = 'Douglas Monteiro – Developer, writer, creator.';
 const description =
   'Front-end developer, JavaScript enthusiast, and course creator.';
 
 const SEO = {
   title,
   description,
-  canonical: 'https://leerob.io',
+  canonical: 'https://douglasmonteiro.dev',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://leerob.io',
+    url: 'https://douglasmonteiro.dev',
     title,
     description,
     images: [
       {
-        url: 'https://leerob.io/static/images/banner.jpg',
+        url: 'https://douglasmonteiro.dev/static/images/banner.jpg',
         alt: title,
         width: 1280,
         height: 720
@@ -22,8 +22,8 @@ const SEO = {
     ]
   },
   twitter: {
-    handle: '@leeerob',
-    site: '@leeerob',
+    handle: '@dgsmonteiro',
+    site: '@dgsmonteiro',
     cardType: 'summary_large_image'
   }
 };

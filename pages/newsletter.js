@@ -5,8 +5,8 @@ import Subscribe from '@/components/Subscribe';
 import NewsletterLink from '@/components/NewsletterLink';
 import { getAllFilesFrontMatter } from '@/lib/mdx';
 
-const url = 'https://leerob.io/newsletter';
-const title = 'Newsletter – Lee Robinson';
+const url = 'https://douglasmonteiro.dev/newsletter';
+const title = 'Newsletter – Douglas Monteiro';
 const description =
   'Thoughts on the software industry, programming, tech, videography, music, and my personal life.';
 
@@ -28,9 +28,7 @@ export default function Newsletter({ newsletters }) {
           Newsletter
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          My newsletter provides a behind-the-scenes look into what I'm working
-          on and writing about. I frequently share some of my favorite articles
-          I've read, as well as anything fascinating about technology.
+        Meu boletim informativo fornece uma visão dos bastidores do que estou trabalhando e sobre as coisas que ando escrevendo. Eu também compartilho sobre artigos e coisas interessantes que encontro na internet.
         </p>
         <Subscribe />
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">

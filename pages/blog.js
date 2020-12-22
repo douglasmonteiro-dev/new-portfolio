@@ -5,10 +5,10 @@ import Container from '@/components/Container';
 import BlogPost from '@/components/BlogPost';
 import { getAllFilesFrontMatter } from '@/lib/mdx';
 
-const url = 'https://leerob.io/blog';
-const title = 'Blog – Lee Robinson';
+const url = 'https://douglasmonteiro.dev/blog';
+const title = 'Blog – Douglas Monteiro';
 const description =
-  'Thoughts on the software industry, programming, tech, videography, music, and my personal life.';
+  'Eu criei um blog, escrever também faz parte do meu processo de estudo, aqui você pode encontrar um pouco do que eu venho estudando e espero que esse conteúdo possa lhe trazer informação de qualidade.';
 
 export default function Blog({ posts }) {
   const [searchValue, setSearchValue] = useState('');
@@ -38,16 +38,16 @@ export default function Blog({ posts }) {
           Blog
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          {`I've been writing online since 2014, mostly about web development and tech careers.
-            In total, I've written ${posts.length} articles on this site.
-            Use the search below to filter by title.`}
+          {`Eu não tenho escrito bastante coisa ultimamente.
+            No total, eu escrevi ${posts.length} artigos nesse site.
+            Você pode usar a pesquisa para encontrar os artigos por título.`}
         </p>
         <div className="relative w-full mb-4">
           <input
-            aria-label="Search articles"
+            aria-label="Pesquisar artigos"
             type="text"
             onChange={(e) => setSearchValue(e.target.value)}
-            placeholder="Search articles"
+            placeholder="Pesquisar artigos"
             className="px-4 py-2 border border-gray-300 dark:border-gray-900 focus:ring-blue-500 focus:border-blue-500 block w-full rounded-md bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
           />
           <svg
@@ -68,7 +68,7 @@ export default function Blog({ posts }) {
         {!searchValue && (
           <>
             <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
-              Most Popular
+              Mais popular
             </h3>
             <BlogPost
               title="Everything I Know About Style Guides, Design Systems, and Component Libraries"

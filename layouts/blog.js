@@ -7,17 +7,17 @@ import ViewCounter from '@/components/ViewCounter';
 import BlogSeo from '@/components/BlogSeo';
 
 const editUrl = (slug) =>
-  `https://github.com/leerob/leerob.io/edit/master/data/blog${slug}.mdx`;
+  `https://github.com/dgsmonteiro/douglasmonteiro.dev/edit/master/data/blog${slug}.mdx`;
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `https://leerob.io/blog${slug}`
+    `https://douglasmonteiro.dev/blog${slug}`
   )}`;
 
 export default function BlogLayout({ children, frontMatter }) {
   return (
     <Container>
       <BlogSeo
-        url={`https://leerob.io/blog/${frontMatter.slug}`}
+        url={`https://douglasmonteiro.dev/blog/${frontMatter.slug}`}
         {...frontMatter}
       />
       <article className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
@@ -27,7 +27,7 @@ export default function BlogLayout({ children, frontMatter }) {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2 mb-8">
           <div className="flex items-center">
             <Image
-              alt="Lee Robinson"
+              alt="Douglas Monteiro"
               height={24}
               width={24}
               src="/avatar.jpg"
@@ -35,7 +35,7 @@ export default function BlogLayout({ children, frontMatter }) {
             />
             <p className="text-sm text-gray-700 dark:text-gray-300 ml-2">
               {frontMatter.by}
-              {'Lee Robinson / '}
+              {'Douglas Monteiro / '}
               {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
             </p>
           </div>

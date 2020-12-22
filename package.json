@@ -1,16 +1,16 @@
 {
-  "name": "leerob.io",
+  "name": "douglasmonteiro.dev",
   "description": "My personal website.",
   "version": "0.0.0",
   "author": {
-    "name": "Lee Robinson",
-    "email": "me@leerob.io",
-    "url": "https://leerob.io"
+    "name": "Douglas Monteiro",
+    "email": "me@douglasmonteiro.dev",
+    "url": "https://douglasmonteiro.dev"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leerob/leerob.io.git"
+    "url": "git+https://github.com/dgsmonteiro/douglasmonteiro.dev.git"
   },
   "scripts": {
     "build": "next build",

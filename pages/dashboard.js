@@ -8,10 +8,9 @@ import GitHub from '@/components/metrics/Github';
 import Gumroad from '@/components/metrics/Gumroad';
 import Unsplash from '@/components/metrics/Unsplash';
 import YouTube from '@/components/metrics/Youtube';
-import TopTracks from '@/components/TopTracks';
 
-const url = 'https://leerob.io/dashboard';
-const title = 'Dashboard – Lee Robinson';
+const url = 'https://douglasmonteiro.dev/dashboard';
+const title = 'Dashboard – Douglas Monteiro';
 const description =
   'My personal dashboard, built with Next.js API routes deployed as serverless functions.';
 
@@ -34,10 +33,7 @@ export default function Dashboard() {
         </h1>
         <div className="mb-8">
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            This is my personal dashboard, built with Next.js API routes
-            deployed as serverless functions. I use this dashboard to track
-            various metrics across platforms like Unsplash, YouTube, GitHub, and
-            more. Want to build your own? Check out my&nbsp;
+            Esse é o meu dashboard pessoal. Eu uso esse dashboard para monitorar meus números das redes sociais. Want to build your own? Check out my&nbsp;
             <Link href="/blog/fetching-data-with-swr">
               <a className="text-gray-900 dark:text-gray-100 underline">
                 blog series.
@@ -57,14 +53,6 @@ export default function Dashboard() {
           <Gumroad />
           <Buttondown />
         </div>
-        <h2 className="font-bold text-3xl tracking-tight mb-4 mt-16 text-black dark:text-white">
-          Top Tracks
-        </h2>
-        <p className="text-gray-600 dark:text-gray-400 mb-4">
-          Curious what I'm currently jamming to? Here's my top tracks on Spotify
-          updated daily.
-        </p>
-        <TopTracks />
       </div>
     </Container>
   );
