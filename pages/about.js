@@ -55,7 +55,7 @@ export default function About() {
             Oi, Eu sou Douglas. Sou desenvolvedor e pai.
           </p>
           <p>
-            Eu cresci em Guarulhos, estudei em escola pública e me formei com a ajuda dos programas PROUNI e FIES. Sou casado e formamos uma família linda com 2 filhos.
+            Eu cresci em Guarulhos, de origem pobre, estudei o ensino médio em escola pública e me formei na graduação com a ajuda financeira dos programas PROUNI e FIES. Na faculdade conheci minha esposa e formamos uma família linda com 2 filhos, gosto de passear com eles e conhecer lugares diferentes.
           </p>
         </div>
         <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
@@ -74,7 +74,7 @@ export default function About() {
          Outro influenciador importante no Brasil é o Felipe Deschamps, antes de se dedicar 100% ao YouTube foi CTO do Pagar.me. Com vasta experiência em programação e também em gestão, nesse vídeo ele fala sobre o quanto o React é revolucionário e os benefícios em criar sites modernos com Next.js. 
         </Talk>
         <Talk
-          title="React: componentes com Styled Components"
+          title="React: componentes com Styled Components - Mario Souto"
           link="https://www.alura.com.br/artigos/react-componentes-com-styled-components"
         >
           Nesse artigo publicado no Blog da Alura, Mario Souto, que foi meu professor no primeiro curso de Angular pela Caelum, fala sobre Styled Components com React.

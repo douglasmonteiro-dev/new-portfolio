@@ -61,7 +61,7 @@ export default function Footer() {
           </svg>
         </ExternalLink>
         
-        <ExternalLink href="mailto:me@douglasmonteiro.dev.br">
+        <ExternalLink href="mailto:douglasmonteiro@icloud.com">
           <span className="sr-only">Email</span>
           <svg className="h-5 w-5" viewBox="0 0 24 24">
             <g

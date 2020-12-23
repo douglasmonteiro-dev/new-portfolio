@@ -1,6 +1,6 @@
-const title = 'Douglas Monteiro – Developer, writer, creator.';
+const title = 'Douglas Monteiro';
 const description =
-  'Front-end developer, JavaScript enthusiast, and course creator.';
+  'Desenvolvedor de Front-end, entusiasta de JavaScript, e pai.';
 
 const SEO = {
   title,
