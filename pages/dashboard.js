@@ -9,7 +9,7 @@ import Gumroad from '@/components/metrics/Gumroad';
 import Unsplash from '@/components/metrics/Unsplash';
 import YouTube from '@/components/metrics/Youtube';
 
-const url = 'https://douglasmonteiro.dev/dashboard';
+const url = 'https://douglasmonteiro.dev.br/dashboard';
 const title = 'Dashboard – Douglas Monteiro';
 const description =
   'My personal dashboard, built with Next.js API routes deployed as serverless functions.';

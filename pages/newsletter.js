@@ -5,7 +5,7 @@ import Subscribe from '@/components/Subscribe';
 import NewsletterLink from '@/components/NewsletterLink';
 import { getAllFilesFrontMatter } from '@/lib/mdx';
 
-const url = 'https://douglasmonteiro.dev/newsletter';
+const url = 'https://douglasmonteiro.dev.br/newsletter';
 const title = 'Newsletter – Douglas Monteiro';
 const description =
   'Thoughts on the software industry, programming, tech, videography, music, and my personal life.';

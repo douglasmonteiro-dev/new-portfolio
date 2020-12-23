@@ -8,9 +8,9 @@ export default function UsesLayout({ children }) {
       <NextSeo
         title="Uses – Douglas Monteiro"
         description={`Here's what tech I'm currently using for coding, videos, and music.`}
-        canonical="https://douglasmonteiro.dev/uses"
+        canonical="https://douglasmonteiro.dev.br/uses"
         openGraph={{
-          url: 'https://douglasmonteiro.dev/uses',
+          url: 'https://douglasmonteiro.dev.br/uses',
           title: 'Uses – Douglas Monteiro',
           description: `Here's what tech I'm currently using for coding, videos, and music.`
         }}

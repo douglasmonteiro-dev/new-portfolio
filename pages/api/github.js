@@ -9,7 +9,7 @@ export default async (_, res) => {
 
   const mine = repositories.filter((repo) => !repo.fork);
   const stars = mine.reduce((accumulator, repository) => {
-    return accumulator + repository['stargazers_count'];
+    return accumulator + repository['size'];
   }, 0);
 
   res.setHeader(

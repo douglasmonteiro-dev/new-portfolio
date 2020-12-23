@@ -44,8 +44,7 @@ const FullTimeline = () => (
     <Year>2018</Year>
     <ul>
       <Step title="Eicon 🏙">
-        I moved Downtown DSM into a quaint 1BR apartment. Des Moines has always
-        felt like home growing up ~45 minutes away.
+        Minha primeira experiência em uma equipe corportiva de front-end, eramos alocados em projetos diferentes a cada sprint, isso contribuiu muito para o meu crescimento profissional.
       </Step>
     </ul>
     <Divider />
@@ -62,21 +61,21 @@ const FullTimeline = () => (
     <Year>2016</Year>
     <ul>
       <Step title="Ciência da Computação 🎓">
-        I opted to stay at my internship full-time throughout the fall.
+        Concluí a Graduação.
       </Step>
     </ul>
     <Divider />
     <Year>2008</Year>
     <ul>
       <Step title="Análise de Sistemas">
-        CEFET.
+        CEFET - Centro Federal de Educação Tecnologica.
       </Step>
     </ul>
     <Divider />
     <Year>2005</Year>
     <ul>
       <Step title="Web Design">
-        Curso de Web Design com as ferramentas da Adobe.
+        Curso de Web Design com as ferramentas da Adobe (Flash, Dreamweaver e Fireworks).
       </Step>
     </ul>
     
@@ -84,15 +83,14 @@ const FullTimeline = () => (
     <Year>2000</Year>
     <ul>
       <Step title="Primeiro Computador">
-        Eu lembro da empolgação que foi o presente, era um Compaq.
+        Eu lembro da empolgação que foi o presente, era um Compaq e me abriu a janela pro mundo de tecnologia, nessa época eu virava as noites navegando e conhecendo coisas novas.
       </Step>
     </ul>
     <Divider />
     <Year>1998</Year>
     <ul>
       <Step title="Primeiro Curso de Informática">
-        Nesse ano, iniciei no primeiro curso de informática básica, com 9 anos tive meu primeiro contato com um computador, era Windows 98 e Office 97.
-        Nessa época, eu já me interessei em construir cadastros com o MS Access.
+        Nesse ano, iniciei no primeiro curso de informática básica, com 9 anos tive meu primeiro contato com um computador, era Windows 98 e Office 97. Nessa época, eu já me interessei em construir cadastros com o MS Access.
       </Step>
     </ul>
     <Divider />
@@ -114,40 +112,31 @@ export default function Timeline() {
       <Year>2021</Year>
     <ul>
       <Step title="React 🔥">
-        Reflecting on my recent job search, I realized there wasn't a
-        centralized listing of all the Des Moines tech companies. So...I created
-        it.
+        Atualmente.
       </Step>
     </ul>
     <Divider />
     <Year>2020</Year>
     <ul>
       <Step title="B3">
-        Reflecting on my recent job search, I realized there wasn't a
-        centralized listing of all the Des Moines tech companies. So...I created
-        it.
+      A Bolsa de Valores do Brasil: Atuação no desenvolvimento de sistema da area de negociação da Bolsa de Valores do Brasil que é utilizado como contingência se os servidores backup da Bolsa não entrem em funcionamento no caso de alguma queda dos servidores principais, essa aplicação fica hospedada na nuvem. Tecnologias utilizadas: HTML5, CSS3, TS, Angular 9.
       </Step>
     </ul>
     <Divider />
     <Year>2019</Year>
     <ul>
       <Step title="Banco Safra">
-        Reflecting on my recent job search, I realized there wasn't a
-        centralized listing of all the Des Moines tech companies. So...I created
-        it.
+      Atuação no desenvolvimento da funcionalidade de câmbio do sistema de caixas do Banco Safra, essa funcionalidade é utilizada por todas as agências de câmbio dos aeroportos. Ferramentas Utilizadas: HTML5, CSS3, JS, NW.js, AngularJS.
       </Step>
     </ul>
     <Divider />
     <Year>2018</Year>
     <ul>
       <Step title="Sistema Financeiro">
-        I moved Downtown DSM into a quaint 1BR apartment. Des Moines has always
-        felt like home growing up ~45 minutes away.
+      Nesse ano tive minha primeira atuação no Sistema Financeiro, pude atuar na tribo de Inovação Digital, na squad de desenvolvimento da ferramenta de Crédito Consignado do Banco Votorantim. Tecnologias utilizadas: HTML5, CSS3, JS, Angular 4, Bootstrap.
       </Step>
       <Step title="IBM 🤘🏻">
-        Reflecting on my recent job search, I realized there wasn't a
-        centralized listing of all the Des Moines tech companies. So...I created
-        it.
+        Tive a oportunidade de atuar no desenvolvimento de ferramenta de chatbot que recebe informações via chat ou pdf referente aos dados técnicos da obra de construção civil, com essas informações, consulta no sistema SAP da Gerdau em qual planta já foi fabricado o aço com as mesmas especificações ou com características próximas e gera um orçamento em menos de 1 minuto informando em qual planta será fabricado o pedido. Tecnologias utilizadas: Angular 6, Watson, Python, HTML5, CSS3, Slack, CI/CD, Git, Sonar, Bamboo, Docker, Github.
       </Step>
     </ul>
       {isShowingFullTimeline ? (

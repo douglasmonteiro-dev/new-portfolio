@@ -1,16 +1,16 @@
 {
-  "name": "douglasmonteiro.dev",
+  "name": "douglasmonteiro.dev.br",
   "description": "My personal website.",
   "version": "0.0.0",
   "author": {
     "name": "Douglas Monteiro",
-    "email": "me@douglasmonteiro.dev",
-    "url": "https://douglasmonteiro.dev"
+    "email": "me@douglasmonteiro.dev.br",
+    "url": "https://douglasmonteiro.dev.br"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dgsmonteiro/douglasmonteiro.dev.git"
+    "url": "git+https://github.com/dgsmonteiro/douglasmonteiro.dev.br.git"
   },
   "scripts": {
     "build": "next build",

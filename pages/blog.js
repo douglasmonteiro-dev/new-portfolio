@@ -5,7 +5,7 @@ import Container from '@/components/Container';
 import BlogPost from '@/components/BlogPost';
 import { getAllFilesFrontMatter } from '@/lib/mdx';
 
-const url = 'https://douglasmonteiro.dev/blog';
+const url = 'https://douglasmonteiro.dev.br/blog';
 const title = 'Blog – Douglas Monteiro';
 const description =
   'Eu criei um blog, escrever também faz parte do meu processo de estudo, aqui você pode encontrar um pouco do que eu venho estudando e espero que esse conteúdo possa lhe trazer informação de qualidade.';

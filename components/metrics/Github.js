@@ -10,5 +10,5 @@ export default function GitHub() {
   const stars = format(data?.stars);
   const link = 'https://github.com/dgsmonteiro';
 
-  return <MetricCard header="GitHub Stars" link={link} metric={stars} />;
+  return <MetricCard header="GitHub Lines" link={link} metric={stars} />;
 }

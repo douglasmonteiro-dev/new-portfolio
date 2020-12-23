@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://douglasmonteiro.dev/sitemap.xml
+Sitemap: https://douglasmonteiro.dev.br/sitemap.xml

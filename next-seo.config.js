@@ -5,16 +5,16 @@ const description =
 const SEO = {
   title,
   description,
-  canonical: 'https://douglasmonteiro.dev',
+  canonical: 'https://douglasmonteiro.dev.br',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://douglasmonteiro.dev',
+    url: 'https://douglasmonteiro.dev.br',
     title,
     description,
     images: [
       {
-        url: 'https://douglasmonteiro.dev/static/images/banner.jpg',
+        url: 'https://douglasmonteiro.dev.br/static/images/banner.jpg',
         alt: title,
         width: 1280,
         height: 720

@@ -1,26 +1,26 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdgsmonteiro%2Fdouglasmonteiro.dev)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdgsmonteiro%2Fdouglasmonteiro.dev.br)
 
-# douglasmonteiro.dev
+# douglasmonteiro.dev.br
 
 My portfolio has transformed over the years - from a static HTML site, to Jekyll, to Hugo, and finally to Next.js/React/MDX. My personal slice of the internet provides a platform for my writing and to showcase my latest work.
 
 ## Overview
 
-- `pages/api/*` - [API routes](https://nextjs.org/docs/api-routes/introduction) powering [`/dashboard`](https://douglasmonteiro.dev/dashboard), newsletter subscription, and post views.
+- `pages/api/*` - [API routes](https://nextjs.org/docs/api-routes/introduction) powering [`/dashboard`](https://douglasmonteiro.dev.br/dashboard), newsletter subscription, and post views.
 - `pages/blog/*` - Static pre-rendered blog pages using [MDX](https://github.com/mdx-js/mdx).
-- `pages/dashboard` - [Personal dashboard](https://douglasmonteiro.dev/dashboard) containing metrics like sales, views, and subscribers.
+- `pages/dashboard` - [Personal dashboard](https://douglasmonteiro.dev.br/dashboard) containing metrics like sales, views, and subscribers.
 - `pages/*` - All other static pages.
 
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/dgsmonteiro/douglasmonteiro.dev.git
-$ cd douglasmonteiro.dev
+$ git clone https://github.com/dgsmonteiro/douglasmonteiro.dev.br.git
+$ cd douglasmonteiro.dev.br
 $ yarn
 $ yarn dev
 ```
 
-Create a `.env.local` file similar to [`.env.example`](https://github.com/dgsmonteiro/douglasmonteiro.dev/blob/master/.env.example).
+Create a `.env.local` file similar to [`.env.example`](https://github.com/dgsmonteiro/douglasmonteiro.dev.br/blob/master/.env.example).
 
 ## Built Using
 
