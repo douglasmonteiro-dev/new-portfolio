@@ -55,7 +55,7 @@ export default function About() {
             Oi, Eu sou Douglas. Sou desenvolvedor e pai.
           </p>
           <p>
-            Eu cresci em Guarulhos, de origem pobre, estudei o ensino médio em escola pública e me formei na graduação com a ajuda financeira dos programas PROUNI e FIES. Na faculdade conheci minha esposa e formamos uma família linda com 2 filhos, gosto de passear com eles e conhecer lugares diferentes.
+            Eu cresci em Guarulhos, de origem pobre, estudei o ensino médio em escola pública e me formei na graduação com a ajuda financeira de programas de incentivo a estudo para pessoas de baixa renda. Na faculdade conheci minha esposa e formamos uma família linda com 2 filhos, gosto de passear com eles e conhecer lugares diferentes.
           </p>
         </div>
         <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
