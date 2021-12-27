@@ -5,15 +5,10 @@ logo: 'spotify.png'
 ---
 
 ```js
-<<<<<<< HEAD
-
-export default async (_, res) => {
-=======
 import { getNowPlaying } from '../../lib/spotify';
 
 export default async (_, res) => {
   const response = await getNowPlaying();
->>>>>>> a4accc1a5d9c27058247975873b8f0900c8ef160
 
   if (response.status === 204 || response.status > 400) {
     return res.status(200).json({ isPlaying: false });
@@ -44,17 +39,9 @@ export default async (_, res) => {
 import fetch from 'isomorphic-unfetch';
 import querystring from 'querystring';
 
-<<<<<<< HEAD
-const {
-  SPOTIFY_CLIENT_ID: client_id,
-  SPOTIFY_CLIENT_SECRET: client_secret,
-  SPOTIFY_REFRESH_TOKEN: refresh_token
-} = process.env;
-=======
 const client_id = process.env.SPOTIFY_CLIENT_ID;
 const client_secret = process.env.SPOTIFY_CLIENT_SECRET;
 const refresh_token = process.env.SPOTIFY_REFRESH_TOKEN;
->>>>>>> a4accc1a5d9c27058247975873b8f0900c8ef160
 
 const basic = Buffer.from(`${client_id}:${client_secret}`).toString('base64');
 const NOW_PLAYING_ENDPOINT = `https://api.spotify.com/v1/me/player/currently-playing`;

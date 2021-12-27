@@ -1,6 +1,2 @@
 User-agent: *
-<<<<<<< HEAD
 Sitemap: https://douglasmonteiro.dev.br/sitemap.xml
-=======
-Sitemap: https://leerob.io/sitemap.xml
->>>>>>> a4accc1a5d9c27058247975873b8f0900c8ef160
