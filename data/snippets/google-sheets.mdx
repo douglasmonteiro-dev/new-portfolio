@@ -11,8 +11,12 @@ export default async (req, res) => {
   const auth = new google.auth.GoogleAuth({
     credentials: {
       client_email: process.env.GOOGLE_CLIENT_EMAIL,
+<<<<<<< HEAD
       client_id: process.env.GOOGLE_CLIENT_ID,
       private_key: process.env.GOOGLE_PRIVATE_KEY
+=======
+      private_key: process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n')
+>>>>>>> a4accc1a5d9c27058247975873b8f0900c8ef160
     },
     scopes: [
       'https://www.googleapis.com/auth/drive',
@@ -53,7 +57,11 @@ To gain access to the Google Sheets API, you need to:
 - Go to the [Google Developer Console.](https://console.developers.google.com/)
 - Create a new project.
 - Credentials -> Create Credentials -> Service-account key.
+<<<<<<< HEAD
 - Click “Enable APIs and services.”
+=======
+- Click "Enable APIs and services."
+>>>>>>> a4accc1a5d9c27058247975873b8f0900c8ef160
 - Find "Google Sheets API" and enable it.
 
 <Step number={2} title="Create Service Account" />
