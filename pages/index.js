@@ -21,6 +21,18 @@ Nos últimos anos, com o renascimento da Web através do Javascript, tenho me fo
           Projetos
         </h3>
         <ProjectCard
+          title="Tecban - Open Banking 2022"
+          description="Atuação no desenvolvimento de sistema da area de negociação da Bolsa de Valores do Brasil que é utilizado como contingência se os servidores backup da Bolsa não entrem em funcionamento no caso de alguma queda dos servidores principais, essa aplicação fica hospedada na nuvem, o projeto consiste em uma squad com 2 desenvolvedores, 1 tester, Scrum Master e PO. O projeto está dividido em tres fases, a primeira foi entregue em Dezembro/2020. Este projeto tem integraçao com o backend atraves de API´s REST. Tecnologias utilizadas: HTML5, CSS3, TS, Angular 9."
+          href="https://www.tecban.com.br/produtos-e-solucoes/open-finance/"
+          icon="tecban"
+        />
+        <ProjectCard
+          title="Santander - Disponibilidade End User 2021"
+          description="Atuação no desenvolvimento de sistema da area de negociação da Bolsa de Valores do Brasil que é utilizado como contingência se os servidores backup da Bolsa não entrem em funcionamento no caso de alguma queda dos servidores principais, essa aplicação fica hospedada na nuvem, o projeto consiste em uma squad com 2 desenvolvedores, 1 tester, Scrum Master e PO. O projeto está dividido em tres fases, a primeira foi entregue em Dezembro/2020. Este projeto tem integraçao com o backend atraves de API´s REST. Tecnologias utilizadas: HTML5, CSS3, TS, Angular 9."
+          href="http://www.santander.com.br"
+          icon="santander"
+        />
+        <ProjectCard
           title="B3: A Bolsa de Valores do Brasil - Negociação 2020"
           description="Atuação no desenvolvimento de sistema da area de negociação da Bolsa de Valores do Brasil que é utilizado como contingência se os servidores backup da Bolsa não entrem em funcionamento no caso de alguma queda dos servidores principais, essa aplicação fica hospedada na nuvem, o projeto consiste em uma squad com 2 desenvolvedores, 1 tester, Scrum Master e PO. O projeto está dividido em tres fases, a primeira foi entregue em Dezembro/2020. Este projeto tem integraçao com o backend atraves de API´s REST. Tecnologias utilizadas: HTML5, CSS3, TS, Angular 9."
           href="http://www.b3.com.br/pt_br/"

@@ -1,10 +1,9 @@
 import { useState, useRef } from 'react';
 import Link from 'next/link';
 import useSWR from 'swr';
-import format from 'comma-number';
 import { trackGoal } from 'fathom-client';
 
-import fetcher from '@/lib/fetcher';
+import fetcher from 'lib/fetcher';
 
 function ErrorMessage({ children }) {
   return (
@@ -50,7 +49,7 @@ export default function Subscribe() {
   const [form, setForm] = useState(false);
   const inputEl = useRef(null);
   const { data } = useSWR('/api/subscribers', fetcher);
-  const subscriberCount = format(data?.count);
+  const subscriberCount = new Number(data?.count);
 
   const subscribe = async (e) => {
     e.preventDefault();

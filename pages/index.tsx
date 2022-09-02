@@ -13,25 +13,16 @@ export default function Home({ videos }) {
         <div className="flex flex-col-reverse sm:flex-row items-start">
           <div className="flex flex-col pr-8">
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
-              Lee Robinson
+              Olá, Sou Douglas Monteiro
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Director of Developer Relations at{' '}
-              <span className="font-semibold">Vercel</span>
+              Desenvolvedor Web Front-end
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
-              Helping developers build a faster web. Teaching about web
-              development, serverless, and React / Next.js.
+            Sou desenvolvedor Javascript, escrevi minha primeira linha de código em 2008 quando iniciei o curso de Tecnologia em Análise e Desenvolvimento de Sistemas no CEFET/SP (atualmente Instituto Federal de São Paulo) e foi em C, antes disso, aos 15 anos ja tive minha primeira experiancia com desenvolvimento de sites em um curso de Web Design que ensinava a criar sites com as ferramentas da Adobe (Flash, Dreamweaver e Fireworks), de lá pra cá naveguei em águas profundas de Java a Assembly.
+Em 2016 concluí a graduação em Ciência da Computação na Universidade São Judas Tadeu e desde então trabalho com Desenvolvimento de Front-End.
+Nos últimos anos, com o renascimento da Web através do Javascript, tenho me focado nessa área e trabalhado com aplicações Web e frameworks como Angular e React.
             </p>
-          </div>
-          <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
-            <Image
-              alt="Lee Robinson"
-              height={176}
-              width={176}
-              src="/avatar.jpg"
-              className="rounded-full filter grayscale"
-            />
           </div>
         </div>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
